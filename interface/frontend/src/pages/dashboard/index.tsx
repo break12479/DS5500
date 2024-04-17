@@ -7,85 +7,8 @@ const { TabPane } = Tabs;
 
 const Dashboard: React.FC = () => {
 
-    const [predictions, setPredictions] = useState(
-    [
-    {
-        time: 1.4,
-        rate: 0.51
-    },
-    {
-        time: 2.4,
-        rate: 0.5
-    },
-    {
-        time: 2.9,
-        rate: 0.54
-    },
-    {
-        time: 3.6,
-        rate: 0.53
-    },
-    {
-        time: 4.6,
-        rate: 0.52
-    },
-    {
-        time: 4.8,
-        rate: 0.45
-    },
-    {
-        time: 5.6,
-        rate: 0.53
-    },
-    {
-        time: 6.6,
-        rate: 0.42
-    },
-    {
-        time: 7.8,
-        rate: 0.45
-    },
-    ]);
+    const [predictions, setPredictions] = useState( []);
 
-
-const plotData = [
-{
-    time: 1.4,
-    rate: 0.51
-},
-{
-    time: 2.4,
-    rate: 0.5
-},
-{
-    time: 2.9,
-    rate: 0.54
-},
-{
-    time: 3.6,
-    rate: 0.53
-},
-{
-    time: 4.6,
-    rate: 0.52
-},
-{
-    time: 4.8,
-    rate: 0.45
-},
-{
-    time: 5.6,
-    rate: 0.53
-},
-{
-    time: 6.6,
-    rate: 0.42
-},
-{
-    time: 7.8,
-    rate: 0.45
-},
-]
 
 const config = {
     data: predictions,
